@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Paytm Clone using html css and Bootstrap">
+  <title>paytm</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+  crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  crossorigin="anonymous">
+</script>
+  <link rel="stylesheet" href="./paytm.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  
+  
+</head>
+
+<body>
+ 
+  <div id="nav-shadow">
+    <nav class="navbar navbar-expand-lg  navcolor-1">
+      <div class="container ">
+        <a class="navbar-brand" href="#">
+          <img src="./images/1.avif" width="185px" height="60px" alt="" class="headerimg">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="#">Paytm for Consumer</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">Paytm for Bussiness</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">Investor Relations</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">Company</a>
+              
+</div>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#">Career</a>
+            </li>
+
+            <button
+              style="background-color: #00baf2; border-style: none; border-radius:20px;height: 45px; padding: 4px;margin-left: 3.2rem "
+              id="loginbutton" class="iii" >
+              <span id="signin-btn">Sign In</span>
+              <img src="images/loginImg.svg" alt="" height="34px" width="34px" >
+            </button>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="list">
+    <div class="container-fluid list">
+    <h4> We have received approval from NPCI as a Third-Party Appliction Provider (TPAP).</h4> &nbsp;&nbsp;<h4 style="color:blue; ">Click to know more</h4>
+     
+    </div>
+  </div>
+
+
+
+
+  <div class="Most-loved-paymentapp">
+    <div class="container-fluid">
+      <div class="col-md-6  pb-5 col-12 adjust">
+        <img src="./images/1.avif" alt="" height="90px" width="90px">
+        <h1 style="font-weight: bold; font-size: 54px;">India's Most-loved Payments App</h1>
+        <p style="font-size: 20px;font-weight:500;">Recharge & pay bills, book flights & movie tickets, <br> open a
+          savings account, invest in stocks & mutual <br>
+          funds, and do a lot more.</p>
+        <button id="download">Download Paytm App
+          <i class="fa-brands  dow-logo fa-apple"></i>
+          <i class="fa-brands dow-logo1 fa-google-play"></i>
+        </button>
+      </div>
+      <div class="col-md-6 pb-5  col-15 ">
+        <img src="./images/2.avif" alt="" style="position:absolute;z-index:-1; width:540px; right:0px; top:250px;">
+      </div>
+    </div>
+    
+  </div>
+
+
+
+  <div class="mobile-recharge mt-5">
+    <div class="container-fluid">
+      <div class="pt-5 pb-4">
+        <h1 class="fw-bold text-white" style="font-size:2.4rem;">Recharge & Pay Bills on Paytm.</h1>
+
+      </div>
+      <div class="row pb-5">
+        <div class="col-md-4 col-lg-2 col-sm-6 col-6 pb-3 pt-3 ">
+          <a href="">
+            <img src="./logo/1.png" alt="" width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;;">Recharge</div>
+            <div class="fw-bold text-white "> Prepaid</div>
+            <div class="fw-bold text-white"> Mobile ></div>
+          </a>
+        </div>
+
+
+        <div class="col-md-4 col-lg-2 col-sm-6  col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/2.png" alt="" width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Pay</div>
+            <div class="fw-bold text-white"> Electricty</div>
+            <div class="fw-bold text-white"> Bill ></div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-sm-6  col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/3.png" alt="" width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Recharge</div>
+            <div class="fw-bold text-white"> DTH</div>
+            <div class="fw-bold text-white"> Connection ></div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-sm-6  col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/4.png" alt="" width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Book</div>
+            <div class="fw-bold text-white"> Gas</div>
+            <div class="fw-bold text-white"> Cylinder ></div>
+          </a>
+        </div>
+
+
+        <div class="col-md-4 col-lg-2 col-sm-7 col-7 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/5.png" alt=""  width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Pay</div>
+            <div class="fw-bold text-white"> Broadband &</div>
+            <div class="fw-bold text-white"> Landline Bill ></div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-sm-6 col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/6.png" alt=""   width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Pay</div>
+            <div class="fw-bold text-white"> Education</div>
+            <div class="fw-bold text-white"> Fee ></div>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="book ">
+    <div class="container-fluid ">
+      <div class="pt-5 pb-4">
+        <h1 class="fw-bold text-white" style="font-size: 2.3rem;">Book & Buy on Paytm.</h1>
+
+      </div>
+      <div class="row pb-5">
+        <div class="col-md-4 col-lg-2 col-sm-6 pb-3  col-6 pt-3 ">
+          <a href="">
+            <img src="./logo/movie.png" alt=""
+              width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;;">Movie</div>
+            <div class="fw-bold text-white "> Tickets &gt;</div>
+
+          </a>
+        </div>
+
+
+        <div class="col-md-4 col-lg-2 col-sm-6 col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/flight.png" alt=""
+              width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Flight</div>
+            <div class="fw-bold text-white"> Tickets &gt;</div>
+
+          </a>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-sm-6 col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/bus.png" alt=""
+              width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Bus</div>
+            <div class="fw-bold text-white"> Tickets &gt;</div>
+
+          </a>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-sm-6 col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/train.png" alt=""
+              width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Train</div>
+            <div class="fw-bold text-white"> Tickets &gt;</div>
+
+          </a>
+        </div>
+
+
+        <div class="col-md-4 col-lg-2 col-sm-6 col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/buy.png" alt=""
+              width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">Buy</div>
+            <div class="fw-bold text-white"> Insurance &gt;</div>
+
+          </a>
+        </div>
+
+        <div class="col-md-4 col-lg-2 col-sm-6 col-6 pb-3 pt-3">
+          <a href="">
+            <img src="./logo/internet.png" alt=""
+              width="64px" class="img-fluid">
+            <div class="fw-bold text-white " style="font-size: 20x;">International</div>
+            <div class="fw-bold text-white"> Flights &gt;</div>
+
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="payment">
+    <div class="container-fluid pt-5">
+      <h1 class="fw-bold" style="font-size: 3rem; padding-left: 10%; padding-bottom: 25px;" id="paymentresp">Paytm
+        Payment Instruments</h1>
+
+      <div class="container round pt-5  " style="background-color: white;">
+        <div class="row  pt-5 ">
+          <div class="col-md-6">
+
+            <div class="col-md-12 mb-5">
+
+              <img src="./images/3.png" alt="" width="77px"
+                height="92px" class="img-fluid">
+              <span class="fw-bold" style="font-size: 19px;">Paytm Wallet</span> <br>
+
+            </div>
+            <div class="col-md-12">
+              <h1 class="fw-bold h">The Fastest Way to <br> Pay In-store & Online.</h1>
+            </div>
+            <div class="col-md-12 pt-3">
+              <p class="fw-medium" style="font-size: 20px;">Load up your Paytm Wallet for free and make payments in a
+                jiffy at over 21 million stores, websites and apps.</p>
+            </div>
+            <div class="col-md-12 pt-2 bt">
+              <button id="download-app">Download Paytm App
+                <i class="fa-brands  downloadlogo fa-apple"></i>
+                <i class="fa-brands downloadlogo1 fa-google-play"></i>
+              </button>
+            </div>
+
+
+          </div>
+          <div class="col-md-6 payment ">
+            <img src="./images/4.webp" alt=""
+              height="460px" width="539px" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid pt-5 mt-3">
+
+
+      <div class="container round pt-5  " style="background-color: white;">
+        <div class="row  pt-5 ">
+          <div class="col-md-6">
+
+            <div class="col-md-12 mb-5">
+
+              <img src="./images/5.png" alt="" width="77px"
+                height="92px" class="img-fluid">
+              <span class="fw-bold" style="font-size: 19px;">UPI Money Transfer</span> <br>
+
+            </div>
+            <div class="col-md-12">
+              <h1 class="fw-bold h">Pay anyone directly <br> from your bank account.</h1>
+            </div>
+            <div class="col-md-12 pt-3">
+              <p class="fw-medium" style="font-size: 20px;">Pay anyone, everywhere. Make contactless & secure payments
+                in-stores or online using Paytm Wallet or Directly from your Bank Account. Plus, send & receive money
+                from anyone.</p>
+            </div>
+            <div class="col-md-12 pt-2 bt">
+              <button id="download-app">Download Paytm App
+                <i class="fa-brands  downloadlogo fa-apple"></i>
+                <i class="fa-brands downloadlogo1 fa-google-play"></i>
+              </button>
+            </div>
+
+
+          </div>
+          <div class="col-md-6 payment ">
+            <img src="./images/6.webp" alt=""
+              height="460px" width="539px" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-5 mt-3">
+
+
+      <div class="container round pt-5  " style="background-color: white;">
+        <div class="row  pt-5 ">
+          <div class="col-md-6">
+
+            <div class="col-md-12 mb-5">
+
+              <img src="./images/7.webp" alt="" width="77px"
+                height="92px" class="img-fluid">
+             
+
+            </div>
+            <div class="col-md-12">
+              <h1 class="fw-bold h">Want it? <br>
+                No more waiting for it.</h1>
+            </div>
+            <div class="col-md-12 pt-3">
+              <p class="fw-medium" style="font-size: 20px;">With Paytm Postpaid, your wishlist doesn't have to be on the
+                waitlist. Shop for the things you want today and pay for them next month.</p>
+            </div>
+            <div class="col-md-12 pt-2 bt">
+              <button id="download-app" class="learnmore">Learn More
+                <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+              </button>
+            </div>
+
+
+          </div>
+          <div class="col-md-6 payment ">
+            <img src="./images/8.webp" alt=""
+              height="200px" width="400px" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="cashback pb-5">
+
+    <div class="container round bg">
+
+      <div>
+        <img src="./images/9.png" alt="" width="185px "
+          height="77px" class="img-fluid">
+      </div>
+      <div>
+        <h1 class="fw-bold pt-4">Unlimited Cashback <br>Every time</h1>
+      </div>
+      <div>
+        <p class="fw-medium pt-3">Paytm HDFC Bank Select Credit Card. A card <br> with assured Cashback and incredible
+          offers.</p>
+      </div>
+      <div class="pt-4">
+        <img src="./images/10.webp" alt="" width="463px"
+          height="296px" class="img-fluid">
+      </div>
+    </div>
+
+
+    <div class="container rounded bg1 pt-5">
+
+      <div>
+        <img src="./images/11.png" alt="" width="196px "
+          height="20px" class="img-fluid bgimg">
+      </div>
+      <div>
+        <h1 class="fw-bold pt-4">India's Most<br>Sincere Credit Card</h1>
+      </div>
+      <div>
+        <p class="fw-medium pt-3">Paytm SBI Card SELECT - With Intelligent Features & Great Rewards that Never Expire
+        </p>
+      </div>
+      <div class="pt-4">
+        <img src="./images/12.webp" alt="" width="463px"
+          height="296px" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="businesstool pb-5">
+
+    <div class="container pt-6">
+      <h1 class="fw-bold">Business Tools to help <br> your business grow</h1>
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img src="./images/13.webp" alt=""
+            width="240px " height="220px" class="img-fluid">
+          <h3 class="fw-bold"> POS Billing <br>
+            Software</h3>
+          <p class="fw-medium">Say Hello to Smart Retail Business Management</p>
+
+          <a href="" class="fw-bold businessLearnmore">Learn More</a>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img src="./images/14.webp" alt=""
+            width="240px " height="220px" class="img-fluid">
+          <h3 class="fw-bold"> Paytm for <br>
+            Business App</h3>
+          <p class="fw-medium">Everything you need to manage your business on your phone</p>
+
+          <a href="" class="fw-bold businessLearnmore">Learn More</a>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img src="./images/15.webp" alt=""
+            width="240px " height="220px" class="img-fluid">
+          <h3 class="fw-bold">Advertise on <br>
+            Paytm</h3>
+          <p class="fw-medium">Grow your business by advertising on India’s largest mobile business</p>
+
+          <a href="" class="fw-bold business">Learn More</a>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img src="./images/16.webp" alt=""
+            width="240px " height="220px" class="img-fluid">
+          <h3 class="fw-bold"> Business <br>
+            Khata</h3>
+          <p class="fw-medium">Managing Khata made easy for users</p>
+
+          <a href="" class="fw-bold business">Learn More</a>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="paytm-money">
+    <div class="container pt-5 pb-5">
+      <div class="row justify-content-evenly">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12 col12center1" style="margin-left: -35px;">
+          <img src="./images/17.webp" alt="" width="160px"  height="58px" class="img-fluid">
+          <p class="fw-medium mt-4">Get started on wealth creation journey with Zero brokerage fee & no hidden charges.
+          </p>
+          <a href="" class="fw-bold paytm-money-1">Learn More</a>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color">
+          <img src="./images/18.webp" alt="" width="145px"  height="158px" class="img-fluid">
+          <div class="fw-bold text-white text-center">Invest In <br> Stock</div>
+        </div>
+
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color">
+          <img src="./images/19.webp" alt="" width="145px"  height="158px" class="img-fluid">
+          <div class="fw-bold text-white text-center">Apply for IPO</div>
+        </div>
+
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color">
+          <img src="./images/20.webp" alt=""  width="145px" height="158px" class="img-fluid">
+          <div class="fw-bold text-white text-center">Invest In <br> ETFs</div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color">
+          <img src="./images/21.webp" alt=""  width="145px" height="158px" class="img-fluid">
+          <div class="fw-bold text-white text-center">Buy Gold</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="paytm-travel">
+    <div class="container pt-5 pb-5">
+      <div class="row justify-content-evenly">
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-12  col12center " style="margin-left: -35px;">
+          <img src="./images/22.webp" alt="" width="160px"  height="58px" class="img-fluid">
+          <p class="fw-medium mt-4">Best travel solutions with quick ticket bookings, great offers and easy refunds</p>
+          <a href="" class="fw-bold paytm-travel-1">Learn More</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color1">
+          <img src="./images/23.webp" alt="" width="72px"  height="72px" class="img-fluid">
+          <div class="fw-bold text-white ">
+            <h5 class="fw-bold">Flat 14%<br> Cashback </h5>
+          </div>
+          <div class="text-white f1 ">With Code</div>
+          <div class="text-white fw-bold f2">WELCOMEFLIGHT</div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color1">
+          <img src="./images/24.webp" alt="" width="72px"  height="72px" class="img-fluid">
+          <div class="fw-bold text-white ">
+            <h5 class="fw-bold">100% Refund </h5>
+          </div>
+          <div class="text-white f1">With Paytm's</div>
+          <div class="text-white fw-bold f2">Cancellation Protection</div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color1">
+          <img src="./images/25.webp" alt="" width="72px"  height="72px" class="img-fluid">
+          <div class="fw-bold text-white ">
+            <h5 class="fw-bold">Flat 10%<br> Cashback </h5>
+          </div>
+          <div class="text-white f1">With Code</div>
+          <div class="text-white fw-bold f2">HAPPYBUS</div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 color1">
+          <img src="./images/26.webp" alt=""  width="72px" height="72px" class="img-fluid">
+          <div class="fw-bold text-white ">
+            <h5 class="fw-bold">Sanitised Bus</h5>
+          </div>
+          <div class="text-white f1 ">Option with</div>
+          <div class="text-white fw-bold f2">TravelSafe+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="foot">
+    <div class="container pt-2">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 mt-">
+
+          <img width="60" height="60" src="./images/27.png" alt="paytm" />
+          <p class="fw-bold text-black">Downlaod Our Paytm App</p>
+
+          <div class="img">
+            <a href="">
+              <img src="./images/28.svg" alt=""  width="130px" height="50px "> </a>
+
+
+            <a href="">
+              <img src="./images/29.svg" alt=""  width="130px" height="50px">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </footer>
+</body>
+</html>

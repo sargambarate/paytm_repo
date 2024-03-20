@@ -1,0 +1,529 @@
+
+/* Mo Responsive */
+
+
+@media screen and (max-width:767px) {
+    .no-kyc {
+        font-size: 10px;
+    }
+
+    #indiamostlovedimg {
+        display: none;
+    }
+
+    #loginbutton {
+        margin: 3%;
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    .recharge_paybill h1 {
+        font-size: 1.5rem;
+    }
+
+    .book_buy h1 {
+        font-size: 1.5rem;
+    }
+
+    .recharge_paybill {
+        margin-top: 1px;
+    }
+
+    .book_buy {
+        margin-top: 1px;
+    }
+
+    .col-md-2 {
+        padding-bottom: 30px;
+    }
+
+    .recharge_paybill .row .col-md-2:hover {
+        border-radius: 40px;
+    }
+
+    .book_buy .row .col-md-2:hover {
+        border-radius: 40px;
+    }
+
+    .rounded {
+        padding-left: 4% ;
+        border-radius: 20px;
+       
+    }
+
+    .bt {
+        padding-bottom: 6%;
+    }
+
+    #paymentresp {
+        font-size: 2rem;
+    }
+
+    .paytm-payment-instrumentsimgresp {
+        width: 220px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bg h1 {
+        font-size: 20px;
+
+    }
+
+    .bg p {
+        font-size: 12px;
+
+    }
+
+    .bg1 h1 {
+        font-size: 20px;
+    }
+
+    .bg1 p {
+        font-size: 12px;
+
+    }
+
+    .bgimg {
+        margin-top: -30px;
+
+    }
+
+    .col12center {
+        text-align: center;
+
+    }
+
+    .col12center img {
+
+        margin-left: 24%;
+
+    }
+
+    .col12center p {
+        margin-left: 5%;
+    }
+
+    .col12center a {
+        margin-left: 8%;
+    }
+
+
+
+    .col12center1 {
+        text-align: center;
+
+    }
+
+    .col12center1 img {
+        margin-left: 10%;
+
+    }
+
+    .col12center1 p {
+        margin-left: 5%;
+    }
+
+    .col12center1 a {
+        margin-left: 8%;
+    }
+
+    .paytm-money .col-6 {
+        margin-bottom: 15px;
+    }
+
+    .paytm-travel .col-6 {
+        margin-bottom: 15px;
+    }
+
+    .foot .img {
+        margin-left: 23%;
+
+    }
+
+    .foot {
+        background-image: none;
+        background-color: rgb(186, 98, 98);
+
+    }
+
+    .foot .row {
+        size: 12px;
+    }
+
+    .col-md-3 {
+        padding-top: 30px;
+    }
+
+
+}
+
+
+
+/* tablet responsive */
+
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    #indiamostlovedimg {
+        width: 400px;
+        top: -38px;
+    }
+
+    .Most-loved-paymentapp h1 {
+        font-size: 2.3rem;
+    }
+
+    .Most-loved-paymentapp p {
+        font-size: .9rem;
+    }
+
+    .Most-loved-paymentapp {
+        position: relative;
+    }
+
+    #loginbutton {
+        margin: 2%;
+    }
+
+    .recharge_paybill .row {
+        padding-left: 120px;
+
+    }
+
+    .book_buy .row {
+        padding-left: 120px;
+
+
+    }
+
+    .payment img {
+        padding-top: 120px;
+    }
+
+    .payment .container {
+        padding-bottom: 30px;
+    }
+
+    .cashback {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cashback .round {
+        padding-left: 11px;
+
+    }
+
+    .paytm-money-1 .col-6 {
+        height: 80%;
+    }
+
+    .col12center1 p {
+        font-size: 12px;
+    }
+
+    .paytm-travel .col-6 {
+        height: 90%;
+    }
+
+    .col12center p {
+        font-size: 12px;
+    }
+
+    .paytm-travel h5 {
+        font-size: 18px;
+    }
+
+    .f1 {
+        font-size: 12px;
+    }
+
+    .f2 {
+        font-size: 15px;
+    }
+
+    .paytm-travel {
+        margin-top: 1%;
+    }
+
+    footer .row {
+        background-repeat: no-repeat;
+        margin-top: 4%;
+
+    }
+
+  
+}
+
+
+/* navbar */
+
+.navcolor-1 {
+    background-color: white;
+
+}
+
+.navcolor-1 a {
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px ;
+    font-weight: bold;
+}
+
+#signin-btn {
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+}
+
+#loginimg {
+    padding-right: 4px;
+}
+
+#nav-shadow {
+    box-shadow: 0px 1px 4px 3px #dbd7d7;
+}
+
+.nav-item a:hover {
+    background-color: #f5f7fa;
+}
+
+.navbar-toggler{
+    color: black;
+}
+
+.list {
+    background-color:rgba(250, 219, 16, 0.871);
+    height: 12vh;
+    margin-top: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* navbar close */
+
+
+ 
+.dow-logo {
+    font-size: 30px;
+}
+
+.dow-logo1 {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#download {
+    background-color: black;
+    color: white;
+    border-style: none;
+    font-size: 14px;
+    height: 40px;
+    padding: 0px 24px;
+    border-radius: 30px;
+}
+
+
+/* div-2 start */
+.adjust {
+    margin-top: 135px;
+}
+
+.mobile-recharge  {
+    background-color: #00baf2;
+
+}
+.book {
+    background-color: #102f61;
+
+}
+
+.mt-5 {
+    margin-top: 8rem;
+}
+
+.mobile-recharge .row:hover {
+    cursor: pointer;
+}
+
+.mobile-recharge .row .col-md-4:hover {
+    background-color: transparent;
+    background-color: #bdbab9;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+
+}
+
+.book .row .col-md-4:hover {
+    background-color: transparent;
+    background-color: #bdbab9;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+
+}
+
+#download:hover {
+    color: black;
+    background-color: white;
+    border-style: groove;
+}
+
+.book a {
+    text-decoration: none;
+}
+
+/* div-1 end */
+
+.mobile-recharge a {
+    text-decoration: none;
+}
+
+.payment {
+    background-color: #f5f7fa;
+}
+
+.unlimited-cashback {
+    background-color: #f5f7fa;
+
+}
+
+.round {
+    border-radius: 50px;
+    padding-left: 120px;
+    padding-bottom: 72px;
+}
+
+.learnmore {
+    background-color: #002970;
+    font-weight: bold;
+}
+
+.learnmore:hover {
+    background-color: #1cd064;
+    color: white;
+    border-style: none;
+
+}
+
+#nav-shadow {
+    position: sticky;
+}
+
+.bg {
+    background-color: white;
+    margin-left: 65;
+    width: 42%;
+    padding-right: 12px;
+    margin-top: 50px;
+}
+
+.bg1 {
+    background-color: white;
+    margin-left: 1% ;
+    width: 44%;
+    margin-top: 50px ;
+}
+
+.cashback {
+    display: flex;
+}
+
+.cashback .round {
+    border-radius: 4%;
+    padding-bottom: 20px;
+}
+
+.business:hover {
+    text-decoration: underline;
+
+}
+
+.business {
+    text-decoration: none;
+
+}
+
+.paytm-money-1:hover {
+    text-decoration: underline;
+}
+
+.paytm-money-1 {
+    text-decoration: none;
+    color: #00baf2;
+}
+
+.paytm-travel-1:hover {
+    text-decoration: underline;
+}
+
+.paytm-travel-1 {
+    text-decoration: none;
+    color: #00baf2;
+}
+
+.color {
+    background-color: #00baf2;
+    opacity: .8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.color img {
+    margin: 6%;
+    border-radius: 15px;
+}
+
+.color1 {
+    background-color: #1eb2e0;
+    opacity: .8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.color1 img {
+    margin: 6%;
+    border-radius: 15px;
+}
+
+.color:hover {
+    opacity: 1;
+}
+
+.color1:hover {
+    opacity: 1;
+}
+
+footer {
+    background-image: url("./images/footer.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 10%;
+    padding-bottom: 10%;
+    background-size: contain;
+
+}
+
+.cont {
+    display: flex;
+    margin: 3px;
+}
+
+.cont img {
+    margin-right: 3px;
+}
+
+footer a {
+    font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+}
