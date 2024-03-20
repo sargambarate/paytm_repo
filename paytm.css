@@ -501,17 +501,6 @@
     opacity: 1;
 }
 
-footer {
-    background-image: url("./images/footer.png");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat; 
-    margin-top: 10%;
-    padding-bottom: 10%;
-    background-size: contain;
-
-}
-
 .cont {
     display: flex;
     margin: 3px;
@@ -527,3 +516,14 @@ footer a {
 footer a {
     text-decoration: none;
 }
+footer {
+    background-image: url("./images/footer.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 10%;
+    padding-bottom: 10%;
+    background-size: contain;
+
+}
+
